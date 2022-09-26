@@ -1,0 +1,96 @@
+html {
+
+    background-color: rgba(146,209,180,255);
+    color: white;
+
+}
+
+
+
+#name-num {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    font-weight: bold;
+    /*background-color: aliceblue;*/
+
+}
+
+#pokename {
+    font-size: 30px;
+    
+}
+
+#pokecenter {
+    
+    display: grid;
+    grid-template-columns: 10% 25% 35% 30%;
+    grid-template-rows: 1fr;
+    justify-content: space-evenly;
+    margin-top: 9%;
+}
+
+#measure {
+    margin-top: 50%;
+    margin-left: 50px;
+   /* background-color: aliceblue;*/
+}
+
+#pokejapwords {
+    font-size: 90px;
+    font-weight: bold;
+    color: gray;
+    opacity: 0.7;
+}
+
+#pokephoto {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+
+#stats-container {
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 40px;
+}
+
+#stats {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#poketype {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgtype {
+    height: 50px;
+}
+
+#pokestats {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.stats {
+    
+    background-color: whitesmoke;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#region {
+    margin-top: 100px;
+    transform: rotate(-90deg);
+    float: left;
+    font-weight: bold;
+}
